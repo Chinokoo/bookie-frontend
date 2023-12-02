@@ -1,0 +1,83 @@
+.app {
+  height: 100vh;
+  padding: 0px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.books {
+  display: flex;
+  gap: 10px;
+}
+.book {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+.book-title {
+  margin: 0;
+  padding: 0;
+}
+.book-desc {
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  background-color: brown;
+}
+.add-button {
+  padding: 5px;
+  margin: 5px;
+}
+.update-button {
+  background-color: white;
+  cursor: pointer;
+  padding: 3px 6px;
+  border: 1px solid rgb(204, 204, 243);
+  color: rgb(139, 139, 234);
+}
+.delete-button {
+  background-color: white;
+  cursor: pointer;
+  padding: 3px 6px;
+  border: 1px solid rgb(245, 191, 191);
+  color: rgb(242, 100, 100);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid grey;
+}
+.formButton {
+  border: none;
+  background-color: rgb(240, 173, 128);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+  padding: 12px 12px;
+}
+.add-button {
+  border: none;
+  background-color: rgb(240, 173, 128);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+  padding: 12px 12px;
+}
